@@ -62,6 +62,7 @@ To generate a run of figure 6, run `versatile.py` by putting the seed in paramet
 **Core of the project**
 - `graphutils.py` Several useful functions such as building the gossip matrix and computing the spectral gap
 - `muffliato.py` Muffliato algorithm, non accelerated and accelerated version
+- `ERsampled.py` privacy leakage for Erdös Renyi graph drawn randomly (theorem 4)
 
 **For synthetic experiments**
 - `figa.py` for comparing several graphs as described in the main text
